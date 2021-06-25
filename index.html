@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Con Số Chủ Đạo</title>
+    <link rel="stylesheet" href="nen.css">
+</head>
+<body>
+    <div >
+        <table id="nen1">
+            <tr>
+                <td colspan="5"><h1>Con Số Chủ Đạo Của Bạn</h1></td>
+            </tr>
+            <tr><td colspan="5"><marquee srcollAmount="1px">Hãy nhập họ tên của bạn</marquee></td></tr>
+            <tr><td colspan="5"><input type="text" placeholder="Hãy nhập họ và tên"></td></tr>
+            <tr><td colspan="5"><marquee>Hãy nhập ngày sinh của bạn</marquee></td></tr>
+            <tr>
+                <td></td>
+                <td><h4>Ngày</h4></td>
+                <td><h4>Tháng</h4></td>
+                <td><h4>Năm</h4></td>
+                <td></td>
+            <tr>
+                <td></td>
+                <td><select id="dd">
+                </select></td>
+                <td><select id="mm">
+                </select></td>
+                <td><select id="yyyy">
+                </select></td>
+                <td></td>
+            </tr>
+            <tr><td colspan="5"><button onclick="enter()">Nhập</button></td></tr>
+        </table>
+    </div>
+    <div id="data">
+        <table>
+            <tr id="sochudao"></tr>
+        </table>
+    </div>
+    <script src="js/day.js"></script>
+    <script src="js/enter.js"></script>
+    <script src="js/compact.js"></script>
+    <script src="js/my.js"></script>
+    <script src="js/data.js"></script>
+</body>
+</html>
